@@ -1,5 +1,25 @@
 ---
 title: "Schedule"
+tbl-colwidths: [22, 60, 18]
 ---
 
-**Schedule goes here**
+### Wednesday June 26th, 2024
+
+| Time         | Session                           | Presenter |
+|--------------|-----------------------------------|-----------|
+| 10:30--10:40 | [Welcome and Introduction](content/01-welcome/index.qmd) | Ella Kaye, Heather Turner |
+| 10:40--12:00 | [Package Foundations](content/02-package-foundations/index.qmd)   | Ella Kaye |
+| 12:00--13:00 | Lunch                             | |
+| 13:00--14:30 | [Function documentation and dependencies](content/03-documentation/index.qmd)         | Ella Kaye |
+| 14:30--15:00 | Coffee break                      | |
+| 15:00--16:30 | [Testing](content/04-testing/index.qmd)               | Heather Turner |
+
+### Thursday June 27th, 2024
+
+| Time         | Session                           | Presenter |
+|--------------|-----------------------------------|-----------|
+| 10:30--12:00 | [Package check and documentation](content/05-check-package-documentation/index.qmd)   | Ella Kaye |
+| 12:00--13:00 | Lunch                             | |
+| 13:00--14:30 | [Packaging data; Publication and maintenance](content/06-data-publication-maintenance/index.qmd)         | Ella Kaye |
+| 14:30--15:00 | Coffee break                      | |
+| 15:00--16:30 | [Rcpp in Packages](content/07-Rcpp-packages/index.qmd)               | Heather Turner |
