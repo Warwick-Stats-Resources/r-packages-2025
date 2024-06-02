@@ -14,15 +14,6 @@ draft: true
 - Fill in resources
 - change `draft` to `false`
 
-**TODO only if class *hasn't* been created with** `create_class()`:
-
-- Create folder and its contents for slides: 
-  - in Terminal run:
-    `cp -r slides/00-template slides/new-name`
-- Update link to slides in new window
-- Update link to slides in iframe
-- Update title of slides in iframe
-
 ## Slides
 
 Here's a link to the [slides](/slides/UPDATE-DIR-NAME/index.qmd){target="_blank"} in a new window. 
@@ -36,9 +27,20 @@ Here are the slides embedded:
 
 ### Reading
 
-- TITLE
+- Wickham, H and Bryan, J, _R Packages_ (2nd edition)
 
-  <LINK>
+  <https://r-pkgs.org>
 
+- R Core Team, _Writing R Extensions_
+
+  <https://cran.r-project.org/doc/manuals/r-release/R-exts.html>
 
 ### Packages
+
+- **devtools**
+
+  <https://devtools.r-lib.org>
+  
+- **usethis**
+
+  <https://usethis.r-lib.org>

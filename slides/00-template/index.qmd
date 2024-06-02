@@ -1,7 +1,9 @@
 ---
 title: SESSION TITLE
-subtitle: COURSE NAME
-author: INSTRUCTOR | DEPARTMENT
+subtitle: R Packages
+author: 
+  - name: Heather Turner and Ella Kaye
+  - name: Department of Statistics
 date: yyyy-MM-dd
 date-format: long
 format: 
@@ -15,23 +17,6 @@ format:
       data-background-position: 100% 0%
 ---
 
-## Overview
-
--   What we're covering
-
-# Section {.inverse}
-
-# End matter {.inverse}
-
-## Resources
-
-Material inspired by and remixed from:
-
-- 
-
-## License
-
-Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){target="_blank"}).
 
 
 ```{=html}
