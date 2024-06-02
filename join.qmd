@@ -1,11 +1,15 @@
 ---
-title: "Join the class"
+title: "Apply for the workshop"
 ---
 
-Add any instructions for joining the course here.
+Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.
 
-If there are no joining instructions:
+[Apply](https://warwick.ac.uk/ellakaye/r-packages-2024){.btn .btn-primary target="_blank"}
 
-- delete the `join.qmd` file
-- delete the link to the join page in the 'Session Details' section of `index.qmd`
-- remove the lines in `_quarto.yml` which add a link to this file in the navbar.
+Please note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. All else being equal, if the course is over-subscribed, places will be given to those who signed-up earliest.
+
+The form closes on June 18th 2024 and you will be notified if you have a place on June 19th at the latest. 
+
+If you have access to SkillsForge, you can *also* sign-up there. Note that you have to sign-up at the [apply](https://warwick.ac.uk/ellakaye/r-packages-2024){target="_blank"} link to be considered for a place. The SkillsForge link is only to allow participants with a place to receive that credit. 
+
+[SkillsForge](https://skillsforge.warwick.ac.uk/warwick/#he/dev/eventDetails,;em,providerCode=ST,providerOrgAlias=warwick,number=5,;){.btn .btn-primary target="_blank"}
