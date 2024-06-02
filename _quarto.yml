@@ -5,7 +5,7 @@ execute:
   freeze: auto
 
 website:
-  title: "R Package Development 2024"
+  title: "R Packages 2024"
   favicon: images/warwick-monogram-favicon.png
   navbar:
     right:
