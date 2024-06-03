@@ -4,7 +4,7 @@ title: "R package development workshop"
 
 Welcome to the R package development workshop!
 
-This is a two-day workshop, taking place at The University of Warwick, June 27th-27th, 2024.
+This is a two-day workshop, taking place at The University of Warwick, June 26th-27th, 2024.
 
 It is aimed primarily at graduate students in the Department of Statistics, but open to all interested members of the university, space permitting. 
 
