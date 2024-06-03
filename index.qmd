@@ -1,8 +1,8 @@
 ---
-title: "R Packages Development Workshop"
+title: "R Package Development Workshop"
 ---
 
-Welcome to the R Packages Development Workshop!
+Welcome to the R Package Development Workshop!
 
 This is a two-day workshop, taking place at The University of Warwick, June 27th-27th, 2024.
 
