@@ -1,6 +1,6 @@
 ---
 title: Function documentation and dependencies
-subtitle: R Packages
+subtitle: R package development workshop
 author: 
   - name: Heather Turner and Ella Kaye
   - name: Department of Statistics
