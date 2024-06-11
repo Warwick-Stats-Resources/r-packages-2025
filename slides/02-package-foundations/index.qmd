@@ -309,10 +309,35 @@ has_devel()
 
 Installing **devtools** will also install **usethis**.    
 
-Check you have the latest version of **usethis** -- 2.2.0 was recently released -- and update if not:
+Check you have the latest version of **usethis** -- v2.2.3 -- and update if not:
 
 ```{r}
 packageVersion("usethis")
+```
+
+## git sitrep and vaccinate
+
+Ask for a **sit**uation **rep**ort:
+
+```{r eval = FALSE}
+usethis::git_sitrep()
+```
+
+- Check that your user name and email are defined, else follow the [configuration instructions](https://hturner.github.io/advanced-r/01_open_code_and_software.html#17) from a previous Advanced R workshop.
+
+- Check whether you have a PAT
+
+  ```
+  Personal access token for 'https://github.com': '<discovered>'
+  ```
+
+. . .
+
+It's also a good idea to vaccinate. This implements best practice by adding files to your global `.gitignore`:
+
+```{r}
+#| eval: false
+usethis::git_vaccinate() 
 ```
 
 ## Create a GitHub PAT
@@ -327,7 +352,7 @@ usethis::create_github_token()
 ```
 
 :::{.smaller90}
-- Add Note describing the computer or use- case (e.g. personal-macbook-pro-2021, project-xyz)
+- Add Note describing the computer or use-case (e.g. personal-macbook-pro-2021, project-xyz)
 - Select expiration (recommend default 30 days)
 - Check scope (default selection is fine)
 - Click 'Generate Token'
@@ -336,8 +361,6 @@ usethis::create_github_token()
 :::
 
 ## Store your PAT
-
-By installing **usethis**, you will also have the **gitcreds** package to manage git credentials.
 
 Put your PAT into the Git credential store by running the following command and entering your copied PAT at the prompt (assume the PAT is on your clipboard).
 
@@ -350,25 +373,7 @@ gitcreds::gitcreds_set()
 - If you do, you will be given a choice to keep/replace/see the password
   - choose as appropriate
   - if replacing, paste!
-
-## sitrep and vaccinate
-
-Ask for a **sit**uation **rep**ort:
-
-```{r eval = FALSE}
-usethis::git_sitrep()
-```
-
-Check that the PAT is discovered.
-
-Check that your user name and email are defined, else follow the [configuration instructions](https://hturner.github.io/advanced-r/01_open_code_and_software.html#17) from a previous Advanced R workshop.
-
-It's also a good idea to vaccinate. This implements best practice by adding files to your global `.gitignore`:
-
-```{r}
-#| eval: false
-usethis::git_vaccinate() 
-```
+- run `git_sitrep()` again to check the PAT has been discovered   
 
 ## More on usethis and GitHub creds
 
@@ -390,7 +395,7 @@ Can only contain the characters [A-Z, a-z, 0-9, .]. Some tips:
 -   Add an r to make unique, e.g **stringr**
 -   Use wordplay, e.g. **lubridate**
 -   Avoid trademarked names
--   Use the **available** package to check name not taken
+-   Use the [**available**](https://r-lib.github.io/available/) package to check name not taken
 
 For now, we will use **animalsounds**
 
@@ -510,9 +515,8 @@ To create a copy on GitHub we use `usethis::use_github()`.
 
 ```{r}
 #| eval: false
-# Choose one of the following:
 usethis::use_github() # creates a public repo
-usethis::use_github(private = TRUE) # recommended
+usethis::use_github(private = TRUE) # private repo (licensing, no Pages)
 ```
 
 This takes a local project, creates an associated repo on GitHub, adds it to your local repo as the "origin remote", and makes an initial "push" to synchronize.
@@ -598,7 +602,7 @@ The output includes:
 • Call `use_test()` to create a matching test file 
 ```
 
-Ignore the instruction to call `use_test()` for now - we'll cover testing later.
+Ignore the instruction to call `use_test()` for now -- we'll cover testing later.
 
 ## Add a function
 
