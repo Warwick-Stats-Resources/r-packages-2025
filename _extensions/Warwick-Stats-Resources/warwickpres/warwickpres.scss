@@ -118,9 +118,12 @@ p {
 }
 
 // headings
+.reveal h2, .reveal h3 {
+  color: $primary;
+}
+
 .reveal h2 {
   padding-bottom: 20px;
-  color: $primary;
 }
 
 // sizes
@@ -198,6 +201,10 @@ kbd {
 
   h1, h2, h3 {
     color: $teal_bright;
+    
+    code {
+      color: $gold_bright;
+    }
   }
   
   .slide-background-content {
