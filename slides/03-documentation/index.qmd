@@ -225,6 +225,8 @@ NAMESPACE for each function that has an `#' @export` comment.
 export(fun1)
 ```
 
+
+
 ## What to export
 
 Only export functions that you want your package users to use, i.e. those that are relevant to the purpose of the package.
@@ -240,6 +242,12 @@ compact <- function(x) {
   x[!vapply(x, is.null, logical(1))]
 }
 ```
+
+. . .
+
+:::{.callout-note}
+Using the 'Insert Roxygen Skeleton' option adds an `@export` tag.
+:::
 
 ## Your turn
 
@@ -270,7 +278,7 @@ Details can be found in the [Writing R documentation files](https://cran.r-proje
 
 ## Using markdown
 
-Most commonly-used mark-up is easier with markdown (can be mixed with `.Rd` mark-up).
+Most commonly used mark-up is easier with markdown (and can be mixed with `.Rd` mark-up).
 
 - Text formatting: `**bold**`, `_italic_`, `` `code` ``
 
