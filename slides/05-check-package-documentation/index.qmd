@@ -27,7 +27,7 @@ format:
 - NEWS
 - Package website with pkgdown 
 
-# Check you package! {.inverse}
+# Check your package! {.inverse}
 
 ## R CMD check
 
@@ -357,7 +357,7 @@ Reminder to fix any issues as soon as they arise!
 
 1. Create a README for `animalsounds` with `usethis::use_readme_rmd()`.
 2. Fill in the description and an example.
-3. Try adding the README in a git commit -- it should fail!. Render the README with `build_readme()`, then add both `README.Rmd` and `README.md` in a git commit.
+3. Try adding the README in a git commit -- it should fail! Render the README with `build_readme()`, then add both `README.Rmd` and `README.md` in a git commit.
 4. Run `usethis::use_github_action("check-release")`. It adds a badge to the README, so you will need to render the README again.
 5. Commit all the changes to git.
 
@@ -539,7 +539,7 @@ Plus:
 
 ## Hosting your website
 
-- You can host your website directly from its GitHub repo
+- You can host your website directly from its GitHub repo (repo has to be public) 
 - The recommended approach is to let GitHub build your page (instead of calling `pkgdown::build_site()` and committing and pushing the artifacts of the built website (i.e., html files) to GitHub
 - Add an action to your GitHub repo to be run automatically every time you push to it to rebuild the site:
 
