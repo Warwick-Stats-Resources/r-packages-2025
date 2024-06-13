@@ -107,7 +107,7 @@ animal_sounds <- function(animal, sound) {
 }
 ```
 
-## A sample test
+## Creating test files
 
 First, create a test file for this function, in either way:
 
@@ -129,6 +129,17 @@ If the R file is open, `usethis::use_test()` (with no arguments) opens or create
 With the test file open, `usethis::use_r()` (with no arguments) opens or creates the R script.
 :::
 
+## Anatomy of a test
+
+```{r}
+#| eval: false
+test_that(desc, code)
+```
+
+- `desc` is the test name. Should be brief and evocative, e.g. `test_that("multiplication works", { ... }).`
+- `code` is test code containing expectations. Braces ({}) should always be used in order to get accurate location data for test failures.
+  - can include several expectations, as well as other code to help define them
+
 ## Add a test
 
 In the now-created and open `tests/testthat/test-animal_sounds.R` script:
@@ -144,8 +155,8 @@ library(testthat)
 #| eval: false
 test_that("animal_sounds produces expected strings", {
   dog_woof <- animal_sounds("dog", "woof")
-  expect_equal(dog_woof, 
-               "The dog goes woof!")
+  expect_equal(dog_woof, "The dog goes woof!")
+  expect_equal(animal_sounds("cat", "miaow"), "The cat goes miaow!")
 })
 ```
 
@@ -308,7 +319,7 @@ and output.
 :::{.smaller90}
 Next time the tests are run the output will be compared against this snapshot.
 
-Suppose we update some of the error message in `animal_sounds` to
+Suppose we update an error message in `animal_sounds` to
 ```{r}
 #| eval: false
 "{.var sound} must be a {.cls character} vector of length 1!"
