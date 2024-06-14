@@ -317,7 +317,7 @@ For a first submission, there are around **22** tasks to complete, split into se
 - First release (one-time only)
 - Prepare for release
 - Submit to CRAN
-- Wait or CRAN (things to do after package has been accepted)
+- Wait for CRAN (things to do after package has been accepted)
 
 For more details on each, see the [Releasing to CRAN](https://r-pkgs.org/release.html) chapter of the R Packages book.
 
@@ -352,19 +352,35 @@ Then send to CRAN's win-builder to check on R-devel
 devtools::check_win_devel()
 ```
 
-. . . 
+Also check on Mac (M1)
 
-:::{.smaller80}
-Further options: R-Hub (multiple platforms available, with different compilers) and Mac-builder (with M1)
 ```r
-devtools::check_rhub()
 devtools::check_mac_release()
 ```
-:::
 
 ::: {.notes}
 It's possible that the way your libraries are set up can mask problems with `check()` on your local machine. For example, it's important that your System Library just comes with base and recommended packages and that all packages that you install go in your user library. Aside: Installing R through `rig` takes care of this for you.  
 :::
+
+## R-hub v2
+
+- A new (since April 2024) check system.
+- Works best if the package is on GitHub
+- Works with GitHub Actions
+
+```{r}
+#| eval: false
+# run once
+install.packages(rhub) 
+rhub::rhub_setup() # guides through set-up process
+rhub::rhub_doctor() # checks the set-up
+
+# run the checks
+rhub::rhub_check()
+```
+
+
+See [the r-hub blog post](https://blog.r-hub.io/2024/04/11/rhub2/) for more details
 
 ## `cran-comments.md`
 
@@ -539,7 +555,9 @@ Blog post: [Package spring cleaning](https://www.tidyverse.org/blog/2023/06/spri
 
 You have written a package!
 
-And reached the end of the R Packages workshop!
+. . .
+
+But stay tuned for the final session on incorporating Rcpp code into a package
 
 # End matter {.inverse}
 
