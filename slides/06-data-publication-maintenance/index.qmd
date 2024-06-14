@@ -218,10 +218,10 @@ Binaries are built for Windows and MacOS, which a user can install using
 `install.packages()`, e.g.
 
 ```{r, eval = FALSE}
-# Install 'malt' from the 'lrioudurand' universe
-install.packages('malt', repos = c(
-  lrioudurand = 'https://lrioudurand.r-universe.dev',
-  CRAN = 'https://cloud.r-project.org')  
+# Install 'warwickplots' from the 'warwick-stats-resources' universe
+install.packages('warwickplots', repos = c(
+  WSR = 'https://warwick-stats-resources.r-universe.dev',
+  CRAN = 'https://cloud.r-project.org')
 )
 ```
 
@@ -231,15 +231,17 @@ Alternatively, you can first set `options(repos)` to enable favourite repositori
 
 ```{r, eval = FALSE}
 options(repos = c(
-  lrioudurand = 'https://lrioudurand.r-universe.dev',
+  WSR = 'https://warwick-stats-resources.r-universe.dev',
   CRAN = 'https://cloud.r-project.org')
 )
-install.packages("malt")
+install.packages("warwickplots")
 ```
 
 
 ::: {.notes}
-This example chosen because the universe belongs to a member of the Warwick Stats department, Lionel Riou-Durand.  
+Give an aside about the warwickplots package
+
+Note that we need to list CRAN as r-universe packages may have dependencies on CRAN packages.
 
 To make options persist across sessions, add this code to your .RProfile with `usethis::edit_r_profile()`
 
@@ -258,8 +260,8 @@ In a nutshell:
     ```
     [
         {
-            "package": "malt",
-            "url": "https://github.com/lrioudurand/malt"
+            "package": "warwickplots",
+            "url": "https://github.com/Warwick-Stats-Resources/warwickplots"
         }
     ]
     ```
@@ -268,7 +270,10 @@ In a nutshell:
 :::
 
 ::: {.notes}
-Copying the example from the r-universe help page, with the example/links to Maelle, but using the example json from Lionel to be consistent with previous slide.  
+Still using `maelle` in places as shorter that Warwick-Stats-Resources! 
+Also, nice to give a shout-out to her and her role in rOpenSci.
+
+Copying the example from the r-universe help page, with the example/links to Maelle, but using the example json from WSR to be consistent with previous slide.  
 
 Might be worth pointing out that with actual username, don't need `< >`
 :::
