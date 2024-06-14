@@ -488,6 +488,14 @@ double inner_prod (arma::vec x, arma::vec y) {
 6. Push all your changes to git from this session.
 :::
 
+# Credit {.inverse}
+
+</br>
+
+Congratulations! You've completed the course!
+
+We now need to take a register to see who's still here so we can award SkillsForge and Warwick Award credit.
+
 ::: {.notes}
 There are issues with lgfortran on macOS. Currently trying to work out how to fix these.  
 :::
