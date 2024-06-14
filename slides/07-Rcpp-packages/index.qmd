@@ -4,7 +4,7 @@ subtitle: R package development workshop
 author: 
   - name: Heather Turner and Ella Kaye
   - name: Department of Statistics
-date: yyyy-MM-dd
+date: 2024-06-27
 date-format: long
 format: 
   warwickpres-revealjs:
@@ -29,10 +29,10 @@ format:
 
 ## Recap
 
-This session assumes familiarity with the [C++ and Rcpp](../../content/06-r-with-cpp/index.html) session of the Advanced R workshop.
+This session assumes familiarity with the [C++ and Rcpp](https://warwick-stats-resources.github.io/r-programming-2024/content/07-r-with-cpp/) session of the R programming workshop.
 
 ::: {.notes}
-For the 2023 workshop, all participants should either have attended this session the day before or been e-mailed in advanced with a link to the material and told that it is a prerequisite.
+For the 2024 workshop, all participants should either have been e-mailed in advanced with a link to the material and told that it is a prerequisite.
 :::
 
 # Creating an Rcpp package {.inverse}
@@ -156,7 +156,7 @@ add_cpp <- function(x, y) {
 }
 ```
 
-Currently this is an internal R function - we have not taken any action to add it as an export in the NAMESPACE.
+Currently this is an internal R function -- we have not taken any action to add it as an export in the NAMESPACE.
 
 ## Try out the R wrapper
 
@@ -262,6 +262,14 @@ to `sumC.cpp`.
 3. Run Build > Document to update the NAMESPACE and create the documentation files for the two R wrappers.
 4. Commit your changes to git.
 
+## Aside: A note on Taskfarm
+
+If you are running code on [Taskfarm](https://docs.scrtp.warwick.ac.uk/taskfarm.html#taskfarm) that uses a package with code compiled by **Rcpp**, you may see "illegal operations" errors in your jobs.
+
+For a fix, see the [Taskfarm FAQ](https://docs.scrtp.warwick.ac.uk/taskfarm-pages/faq.html#.).
+
+Note that this can occur with any package that includes code compiled with Rcpp, not just packages that you wrote.
+
 ## Exporting C++ Code
 
 As we have seen, `Rcpp::compileAttributes()` creates an R interface to our exported C++ functions.
@@ -327,7 +335,7 @@ https://github.com/YeeJeremy/rflann
 
 ## Example: Alternative Distribution Functions
 
-In the Advanced R workshop (final exercise of the Rcpp session), we wrote an Rcpp function to approximate $\pi$:
+In the R Programming workshop (final exercise of the Rcpp session), we wrote an Rcpp function to approximate $\pi$:
 
 ```{cpp, eval = FALSE}
 double approx_pi(const int N) {
