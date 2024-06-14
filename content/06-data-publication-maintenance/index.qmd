@@ -8,8 +8,6 @@ date-format: long
 draft: false
 ---
 
-***The slides for this session are still under development***
-
 ## Slides
 
 Here's a link to the [slides](/slides/06-data-publication-maintenance/index.qmd){target="_blank"} in a new window. 
