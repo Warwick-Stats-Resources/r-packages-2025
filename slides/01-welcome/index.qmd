@@ -80,10 +80,16 @@ University of Warwick
 |--------------|-----------------------------------|-----------|
 | 10:30--10:40 | [Welcome and introduction](../../content/01-welcome/index.qmd) | Ella Kaye, Heather Turner |
 | 10:40--12:00 | [Package foundations](../../content/02-package-foundations/index.qmd)   | Ella Kaye |
-| 12:00--13:00 | Lunch                             | |
-| 13:00--14:30 | [Function documentation and dependencies](../../content/03-documentation/index.qmd)         | Ella Kaye |
-| 14:30--15:00 | Coffee break                      | |
+| **12:00--12:45** | Lunch                             | |
+| **12:45--14:15** | [Function documentation and dependencies](../../content/03-documentation/index.qmd)         | Ella Kaye |
+| **14:15--15:00** | Coffee break                      | |
 | 15:00--16:30 | [Testing](../../content/04-testing/index.qmd)               | Heather Turner |
+:::
+
+:::{.callout-note}
+Propose a slight shift in times in the middle of the day.
+
+Is this OK? (Will go back to original times if this causes issues for anyone.)
 :::
 
 ## Schedule: Thursday June 27th 
@@ -103,6 +109,16 @@ University of Warwick
 Sign-up on [SkillsForge](https://skillsforge.warwick.ac.uk/warwick/#he/dev/eventDetails,;em,providerCode=ST,providerOrgAlias=warwick,number=5,;) for credit there (assuming you attend the whole workshop).
 
 Or, go to <https://skillsforge.warwick.ac.uk> and search for "ST5".
+
+## Warwick Award
+
+*Still to be confirmed*
+
+Register at <https://warwick.ac.uk/warwickaward>.
+
+## Register
+
+Need to take a register now, and again at end of penultimate session, so we know who gets credit.
 
 # Let's begin... {.inverse .center-h}
 

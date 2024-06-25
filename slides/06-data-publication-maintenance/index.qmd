@@ -26,6 +26,7 @@ format:
   - CRAN
 - Promotion
 - Maintenance
+- *Workshop admin*
 
 ::: {.notes}
 The packaging data section would more naturally fit earlier in the course, but put here because of how the schedule has panned out.  
@@ -562,7 +563,15 @@ You have written a package!
 
 . . .
 
-But stay tuned for the final session on incorporating Rcpp code into a package
+Final session on incorporating Rcpp code into a package.
+
+But first some admin...
+
+## Admin
+
+- Feedback form: [warwick.ac.uk/ellakaye/r-packages-2024-feedback](https://warwick.ac.uk/ellakaye/r-packages-2024-feedback)
+
+- Register
 
 # End matter {.inverse}
 
