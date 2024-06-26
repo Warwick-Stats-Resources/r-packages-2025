@@ -112,9 +112,11 @@ Or, go to <https://skillsforge.warwick.ac.uk> and search for "ST5".
 
 ## Warwick Award
 
-*Still to be confirmed*
-
 Register at <https://warwick.ac.uk/warwickaward>.
+
+You'll then receive an email to write a reflection.
+
+Search 'R Package Development Workshop' on the Warwick Award platform.
 
 ## Register
 
