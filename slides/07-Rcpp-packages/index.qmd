@@ -319,7 +319,7 @@ e.g. with `usethis::use_package(otherpkg, type = "LinkingTo")`. Then in `.cpp` f
 #include <otherpkg.h>
 ```
 
-Then either `using namespace otherpkg;` to make the functions from `otherpackage` available globally, or `otherpkg::fn()` to access functions directly.
+Then either `using namespace otherpkg;` to make the functions from `otherpkg` available globally, or `otherpkg::fn()` to access functions directly.
 
 ::: {.notes}
 https://www.faqcode4u.com/faq/20021/using-c-function-from-other-package-in-rcpp
@@ -476,7 +476,7 @@ If you have an Apple Silicon Mac, you will also need to do the following:
 
 2. In `inner_prod.cpp`, edit the `#include` statement for RcppArmadillo and add the code
 ```{Rcpp, eval = FALSE}
-// [[ Rcpp::export]]
+// [[Rcpp::export]]
 double inner_prod (arma::vec x, arma::vec y) {
     arma::mat z = x.t() * y ;
     return(z(0)) ;
