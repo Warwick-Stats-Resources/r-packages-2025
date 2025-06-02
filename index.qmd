@@ -4,9 +4,9 @@ title: "R package development workshop"
 
 Welcome to the R package development workshop!
 
-This is a two-day workshop, taking place at The University of Warwick, June 26th-27th, 2024.
+This is a two-day workshop, taking place at The University of Warwick, June 23rd-24th, 2025.
 
-It is aimed primarily at graduate students in the Department of Statistics, but open to all interested members of the university, space permitting. 
+It is aimed primarily doctoral students and post-docs, but open to all interested members of the university, space permitting. 
 
 Please see the [join](join.qmd) page for details on how to sign-up for the course.
 
@@ -18,13 +18,10 @@ All slides and further resources can be accessed from the [content](content.qmd)
 
 ## Session details
 
-{{< fa calendar >}} &nbsp; June 26th-27th, 2024
+{{< fa calendar >}} &nbsp; June 23rd-24th, 2025
 
-{{< fa clock >}} &nbsp; 10:30--16:30
-
-{{< fa location-dot >}} &nbsp; Room A1.01, Zeeman Building, University of Warwick
-
-{{< fa utensils >}} &nbsp; Lunch provided each day
+{{< fa clock >}} &nbsp; 10:30--16:30 
+{{< fa location-dot >}} &nbsp; Room OC1.07, The Oculus, University of Warwick
 
 {{< fa calendar-alt >}} &nbsp; See the full [schedule](schedule.qmd).
 
@@ -36,4 +33,7 @@ All slides and further resources can be accessed from the [content](content.qmd)
 
 ## Prerequistes
 
-Please see the [prerequisites](prerequisites.qmd) page for details on getting set up in advance of the first session.
+Please see the [prerequisites](prerequisites.qmd) page for details on getting set up in advance of the first session. There are a number of technical requirements. 
+
+There will be optional sessions on both mornings of the workshop, 10:00--10:30, to troubleshoot technical set-up.
+
