@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Monday June 23rd, 2025\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye, Heather Turner\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner\n\n\n\n\n\nTuesday June 24th, 2025\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye, Heather Turner\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
+    "text": "Monday June 23rd, 2025\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:00–10:30\nTechnical set-up (optional)\nElla Kaye, Heather Turner\n\n\n10:30–10:40\nWelcome and introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye, Heather Turner\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner\n\n\n\n\n\nTuesday June 24th, 2025\n\n\n\n\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:00–10:30\nTroubleshooting (optional)\nElla Kaye, Heather Turner\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye, Heather Turner\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
   },
   {
     "objectID": "slides/07-Rcpp-packages/index.html#overview",
@@ -410,14 +410,14 @@
     "href": "slides/01-welcome/index.html#schedule-monday-june-23rd",
     "title": "Welcome and introduction",
     "section": "Schedule: Monday June 23rd",
-    "text": "Schedule: Monday June 23rd\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–10:40\nWelcome and introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye, Heather Turner\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner"
+    "text": "Schedule: Monday June 23rd\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:00–10:30\nTechnical set-up (optional)\nElla Kaye, Heather Turner\n\n\n10:30–10:40\nWelcome and introduction\nElla Kaye, Heather Turner\n\n\n10:40–12:00\nPackage foundations\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nFunction documentation and dependencies\nElla Kaye, Heather Turner\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nTesting\nHeather Turner"
   },
   {
     "objectID": "slides/01-welcome/index.html#schedule-tuesday-june-24th",
     "href": "slides/01-welcome/index.html#schedule-tuesday-june-24th",
     "title": "Welcome and introduction",
     "section": "Schedule: Tuesday June 24th",
-    "text": "Schedule: Tuesday June 24th\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye, Heather Turner\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
+    "text": "Schedule: Tuesday June 24th\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:00–10:30\nTroubleshooting (optional)\nElla Kaye, Heather Turner\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye, Heather Turner\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
   },
   {
     "objectID": "slides/02-package-foundations/index.html#overview",
@@ -907,7 +907,7 @@
     "href": "index.html#session-details",
     "title": "R package development workshop",
     "section": "Session details",
-    "text": "Session details\n   June 23rd-24th, 2025\n   10:30–16:30    Room OC1.07, The Oculus, University of Warwick\n   See the full schedule."
+    "text": "Session details\n   June 23rd-24th, 2025\n   10:30–16:30\n   Room OC1.07, The Oculus, University of Warwick\n   See the full schedule."
   },
   {
     "objectID": "index.html#instructor-details",

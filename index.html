@@ -170,7 +170,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="session-details" class="level2">
 <h2 class="anchored" data-anchor-id="session-details">Session details</h2>
 <p><i class="fa-solid fa-calendar" aria-label="calendar"></i> &nbsp; June 23rd-24th, 2025</p>
-<p><i class="fa-solid fa-clock" aria-label="clock"></i> &nbsp; 10:30–16:30 <i class="fa-solid fa-location-dot" aria-label="location-dot"></i> &nbsp; Room OC1.07, The Oculus, University of Warwick</p>
+<p><i class="fa-solid fa-clock" aria-label="clock"></i> &nbsp; 10:30–16:30</p>
+<p><i class="fa-solid fa-location-dot" aria-label="location-dot"></i> &nbsp; Room OC1.07, The Oculus, University of Warwick</p>
 <p><i class="fa-solid fa-calendar-alt" aria-label="calendar-alt"></i> &nbsp; See the full <a href="./schedule.html">schedule</a>.</p>
 </section>
 <section id="instructor-details" class="level2">
@@ -259,7 +260,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Warwick-Stats-Resources\.github\.io\/r-packages-2025\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
