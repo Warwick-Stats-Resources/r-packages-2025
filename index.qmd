@@ -22,7 +22,7 @@ All slides and further resources can be accessed from the [content](content.qmd)
 
 {{< fa clock >}} &nbsp; 10:30--16:30 
 
-{{< fa location-dot >}} &nbsp; Room OC1.07, The Oculus, University of Warwick
+{{< fa location-dot >}} &nbsp; Room R1.13, Ramphal, University of Warwick
 
 {{< fa calendar-alt >}} &nbsp; See the full [schedule](schedule.qmd).
 
