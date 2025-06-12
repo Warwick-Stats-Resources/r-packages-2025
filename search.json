@@ -417,7 +417,14 @@
     "href": "slides/01-welcome/index.html#schedule-tuesday-june-24th",
     "title": "Welcome and introduction",
     "section": "Schedule: Tuesday June 24th",
-    "text": "Schedule: Tuesday June 24th\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:00–10:30\nTroubleshooting (optional)\nElla Kaye, Heather Turner\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye, Heather Turner\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner"
+    "text": "Schedule: Tuesday June 24th\n\n\n\n\nTime\nSession\nPresenter\n\n\n\n\n10:00–10:30\nTroubleshooting (optional)\nElla Kaye, Heather Turner\n\n\n10:30–12:00\nPackage check and documentation\nElla Kaye\n\n\n12:00–13:00\nLunch\n\n\n\n13:00–14:30\nPackaging data; Publication and maintenance\nElla Kaye, Heather Turner\n\n\n14:30–15:00\nCoffee break\n\n\n\n15:00–16:30\nRcpp in packages\nHeather Turner\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\nYou’ll get the most out of the Rcpp session tomorrow afternoon if you’re familiar with the material on C++ and Rcpp from the R Programming course."
+  },
+  {
+    "objectID": "slides/01-welcome/index.html#skillsforge",
+    "href": "slides/01-welcome/index.html#skillsforge",
+    "title": "Welcome and introduction",
+    "section": "SkillsForge",
+    "text": "SkillsForge\nIf you are eligible for SkillsForge you may also sign-up for the workshop there to receive credit for the course.\nOr go to https://skillsforge.warwick.ac.uk/ and search for course ST6, R Package Development Workshop."
   },
   {
     "objectID": "slides/02-package-foundations/index.html#overview",
@@ -802,7 +809,7 @@
     "href": "join.html",
     "title": "Apply for the workshop",
     "section": "",
-    "text": "Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.\nApply\nPlease note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome.\nThe form closes on Sunday, June 15th, 2025 (11:59pm) and you will be notified if you have a place on June 16th at the latest."
+    "text": "Please click below to register your interest in participating in the workshop. Note that the course runs for two days and participation for the entire workshop is expected.\nApply\nPlease note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome.\nThe form closes on Sunday, June 15th, 2025 (11:59pm) and you will be notified if you have a place on June 16th at the latest.\nIf you are eligible for SkillsForge you may also sign-up for the workshop there to receive credit for the course, but note that you still fill in the main application form to be considered for a place."
   },
   {
     "objectID": "content/02-package-foundations/index.html",
@@ -1159,7 +1166,7 @@
     "href": "slides/06-data-publication-maintenance/index.html#admin",
     "title": "Packaging dataPublication and maintenance",
     "section": "Admin",
-    "text": "Admin\n\nFeedback form: warwick.ac.uk/ellakaye/r-packages-2024-feedback\nRegister"
+    "text": "Admin\n\nFeedback form: warwick.ac.uk/ellakaye/r-packages-2025-feedback\nFor SkillsForge credit, e-mail ella.m.kaye@warwick.ac.uk the password (which I’ll tell you now!)"
   },
   {
     "objectID": "slides/06-data-publication-maintenance/index.html#references",
