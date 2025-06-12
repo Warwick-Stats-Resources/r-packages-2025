@@ -93,55 +93,17 @@ University of Warwick
 | 15:00--16:30 | [Rcpp in packages](../../content/07-Rcpp-packages/index.qmd)     | Heather Turner |
 :::
 
+. . . 
+
+:::{.callout-note}
+You'll get the most out of the Rcpp session tomorrow afternoon if you're familiar with the material on [C++ and Rcpp from the R Programming course](https://warwick-stats-resources.github.io/r-programming-2025/content/07-r-with-cpp/index.html).
+:::
+
+## SkillsForge
+
+If you are eligible for SkillsForge you may also [sign-up for the workshop](https://skillsforge.warwick.ac.uk/warwick/#he/dev/eventDetails,;em,providerCode=ST,providerOrgAlias=warwick,number=6,;) there to receive credit for the course.
+
+Or go to <https://skillsforge.warwick.ac.uk/> and search for course **ST6**, R Package Development Workshop.
 
 # Let's begin... {.inverse .center-h}
 
-
-```{=html}
-<!-- needs to be last chunk of presentation otherwise creates an extra slide -->
-<!-- requires Quarto v1.3 -->
-<!-- tint80 for border, tint20 for title -->
-<!-- this should hopefully no longer be necessary in a future version of Quarto -->
-<!-- https://github.com/quarto-dev/quarto-cli/issues/5038 -->
-<style type="text/css">
-div.callout-note {
-  border-left-color: #00A9CE !important;
-}
-
-div.callout-note.callout-style-default .callout-title {
-  background-color: #B3E5F0 !important;
-}
-
-div.callout-warning {
-  border-left-color: #CB333B !important;
-}
-
-div.callout-warning.callout-style-default .callout-title {
-  background-color: #EEC3C3 !important;
-}
-
-div.callout-tip {
-  border-left-color: #6DCDB8 !important;
-}
-
-div.callout-tip.callout-style-default .callout-title {
-  background-color: #D3F0EB !important;
-}
-
-div.callout-important {
-  border-left-color: #F1BE48 !important;
-}
-
-div.callout-important.callout-style-default .callout-title {
-  background-color: #FAECC8 !important;
-}
-
-div.callout-caution {
-  border-left-color: #E87722 !important;
-}
-
-div.callout-caution.callout-style-default .callout-title {
-  background-color: #F8D5BC !important;
-}
-</style>
-```

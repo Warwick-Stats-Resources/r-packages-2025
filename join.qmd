@@ -9,3 +9,5 @@ Please click below to register your interest in participating in the workshop. N
 Please note that filling in this form does not guarantee a place. Priority will be given to those in the Department of Statistics (as the department is funding the course) though graduate students and staff from all departments are welcome. 
 
 The form closes on **Sunday, June 15th, 2025 (11:59pm)** and you will be notified if you have a place on **June 16th** at the latest. 
+
+If you are eligible for SkillsForge you may also [sign-up for the workshop](https://skillsforge.warwick.ac.uk/warwick/#he/dev/eventDetails,;em,providerCode=ST,providerOrgAlias=warwick,number=6,;) there to receive credit for the course, but note that you still fill in the [main application form](https://warwick.ac.uk/ellakaye/r-packages-2025) to be considered for a place.
