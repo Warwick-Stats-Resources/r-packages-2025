@@ -379,28 +379,40 @@ Or you might want to use an infix function
 
 ```{r}
 #| eval: false
-`%>%` <- magittr::`%>%`
+`%+%` <- roperators::`%+%`
 
-col_summary <- function(df, fun) {
-  stopifnot(is.data.frame(df))
-
-  df %>%
-    purrr::keep(is.numeric) %>%
-    purrr::modify(fun)
+welcome <- function(name, place){
+  message("Welcome " %+% name %+% " from " %+% place %+% "!")
 }
 ```
+
+## Aside: `%>%` vs `|>`
+
+The native pipe, `|>`, has been available in R since 4.1.0, 
+and we now prefer this to importing the `%>%` pipe from **magrittr**.
+
+There are then two options:
+
+- Depend on R >= 4.1.0, with this in DESCRIPTION:
+
+```
+Depends:
+    R (>= 4.1.0)
+```
+
+- Use the methods outlined in [this tidyverse blog post](https://www.tidyverse.org/blog/2023/04/base-vs-magrittr-pipe/#using-the-native-pipe-in-packages) to ensure the package can still work with older versions of R.
 
 ## You can `import` functions into the package
 
 ```{r}
 #| eval: false
 #' @importFrom purrr keep modify
-#' @importFrom magrittr %>%
+
 col_summary <- function(df, fun) {
   stopifnot(is.data.frame(df))
 
-  df %>%
-    keep(is.numeric) %>%
+  df |>
+    keep(is.numeric) |>
     modify(fun)
 }
 ```
@@ -418,7 +430,7 @@ Imports belong to the package, not to individual functions, so alternatively you
 
 ```r
 #' @importFrom purrr keep modify
-#' @importFrom magrittr %>%
+#' @importFrom roperators %+%
 NULL
 ```
 
@@ -457,8 +469,8 @@ May need to close and reopen R/animalsounds-package.R to see the changes.
 col_summary <- function(df, fun) {
   stopifnot(is.data.frame(df))
 
-  df %>%
-    keep(is.numeric) %>%
+  df |>
+    keep(is.numeric) |>
     map_dfc(fun)
 }
 
